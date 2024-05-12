@@ -1,12 +1,16 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
+import 'package:mobx/mobx.dart';
+import 'package:mobx/mobx.dart' as mobx;
+import 'package:mucke/presentation/widgets/album_art_grid.dart';
+import 'package:mucke/presentation/widgets/album_art_list.dart';
 
 import '../../domain/entities/album.dart';
 import '../state/music_data_store.dart';
 import '../state/navigation_store.dart';
-import '../widgets/album_art_list_tile.dart';
-import 'album_details_page.dart';
 
 class AlbumsPage extends StatefulWidget {
   const AlbumsPage({Key? key}) : super(key: key);
@@ -15,8 +19,11 @@ class AlbumsPage extends StatefulWidget {
   _AlbumsPageState createState() => _AlbumsPageState();
 }
 
-class _AlbumsPageState extends State<AlbumsPage> with AutomaticKeepAliveClientMixin {
-  final ScrollController _scrollController = ScrollController();
+class _AlbumsPageState extends State<AlbumsPage>
+    with AutomaticKeepAliveClientMixin {
+  final ScrollController scrollController = ScrollController();
+  final Observable<bool> showAlbumGrid = Observable(false);
+  final Observable<String> sortingMode = Observable('name');
 
   @override
   Widget build(BuildContext context) {
@@ -28,33 +35,54 @@ class _AlbumsPageState extends State<AlbumsPage> with AutomaticKeepAliveClientMi
     return Observer(builder: (_) {
       print('AlbumsPage.build -> Observer.builder');
       final List<Album> albums = store.albumStream.value ?? [];
-      return Scrollbar(
-        controller: _scrollController,
-        child: ListView.separated(
-          controller: _scrollController,
-          itemCount: albums.length,
-          itemBuilder: (_, int index) {
-            final Album album = albums[index];
-            return AlbumArtListTile(
-              title: album.title,
-              subtitle: album.artist,
-              albumArtPath: album.albumArtPath,
-              onTap: () {
-                navStore.push(
-                  context,
-                  MaterialPageRoute<Widget>(
-                    builder: (BuildContext context) => AlbumDetailsPage(
-                      album: album,
-                    ),
-                  ),
-                );
+      switch (sortingMode.value) {
+        case 'name':
+          break;
+        case 'artistName':
+          albums.sort((a,b) => a.artist.compareTo(b.artist));
+          break;
+        case 'random':
+          albums.shuffle(Random());
+          break;
+      }
+      return CustomScrollView(
+        slivers: [
+          SliverAppBar(
+            floating: true,
+            leading: IconButton(
+              onPressed: () {
+                showAlbumGrid.toggle();
               },
-            );
-          },
-          separatorBuilder: (BuildContext context, int index) => const SizedBox(
-            height: 4.0,
+              icon: Icon(showAlbumGrid.value ? Icons.list : Icons.grid_view),
+            ),
+            actions: [
+              DropdownButton(
+                value: sortingMode.value,
+                items: const [
+                  DropdownMenuItem(value: 'name', child: Text('name')),
+                  DropdownMenuItem(value: 'artistName', child: Text('artistName')),
+                  DropdownMenuItem(value: 'random', child: Text('random')),
+                ],
+                onChanged: (selectedValue) {
+                  if (selectedValue != null)
+                    mobx.Action(() {
+                      sortingMode.value = selectedValue;
+                    })();
+                },
+              )
+            ],
           ),
-        ),
+          if (showAlbumGrid.value)
+            AlbumArtGrid(
+                albums: albums,
+                scrollController: scrollController,
+                navStore: navStore)
+          else
+            AlbumArtList(
+                albums: albums,
+                scrollController: scrollController,
+                navStore: navStore),
+        ],
       );
     });
   }
