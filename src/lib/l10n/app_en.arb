@@ -413,5 +413,7 @@
   "create": "Create",
   "@create": {},
   "created": "Created",
-  "@created": {}
+  "@created": {},
+  "sleepTimer": "Sleep Timer",
+  "@sleepTimer": {}
 }

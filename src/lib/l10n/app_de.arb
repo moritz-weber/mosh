@@ -334,5 +334,7 @@
   "systemSettings": "Systemeinstellungen",
   "@systemSettings": {},
   "managePermissionSubtitle": "Die Rücknahme der Berechtigung führt zu einem Neustart der App.",
-  "@managePermissionSubtitle": {}
+  "@managePermissionSubtitle": {},
+  "sleepTimer": "Sleep Timer",
+  "@sleepTimer": {}
 }
