@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:mobx/mobx.dart';
 
 import '../../domain/entities/album.dart';
@@ -143,6 +145,12 @@ abstract class _AudioStore with Store {
   @observable
   late ObservableStream<LoopMode> loopModeStream =
       _audioPlayerRepository.loopModeStream.asObservable();
+
+  Timer? _sleepTimer;
+  void setSleepTimer(int time) {
+    _sleepTimer?.cancel();
+    _sleepTimer = Timer(Duration(minutes: time), () => _audioPlayerRepository.stop());
+  }
 
   @computed
   bool get hasNext =>
