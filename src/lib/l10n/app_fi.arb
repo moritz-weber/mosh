@@ -277,5 +277,117 @@
   "artistName": "Esittäjän nimi",
   "@artistName": {},
   "currentlyPlaying": "Nyt toistetaan",
-  "@currentlyPlaying": {}
+  "@currentlyPlaying": {},
+  "newlyAddedDesc": "Sisältää 100 viimeksi lisättyä kappaletta.",
+  "@newlyAddedDesc": {},
+  "createSmartlists": "Luo älykkäitä listoja",
+  "@createSmartlists": {},
+  "create": "Luo",
+  "@create": {},
+  "errorReadData": "Virhe tiedostojen lukemisessa.",
+  "@errorReadData": {},
+  "createSmartlistsDesc": "Luo ehdotettuja älykkäitä listoja, jotka parantavat kuuntelukokemusta. Voit muokata näitä luetteloita myöhemmin.",
+  "@createSmartlistsDesc": {},
+  "created": "Luotu",
+  "@created": {},
+  "systemSettings": "Järjestelmän asetukset",
+  "@systemSettings": {},
+  "playCount": "Toistomäärä",
+  "@playCount": {},
+  "timeAdded": "Lisäysaika",
+  "@timeAdded": {},
+  "likeCount": "Tykkäysmäärä",
+  "@likeCount": {},
+  "lastTimePlayed": "Viimeksi toistettu",
+  "@lastTimePlayed": {},
+  "favoritesDesc": "Sisältää kaikki kappaleet, joista pidät.",
+  "@favoritesDesc": {},
+  "grantManagePermission": "Myönnä lupa hallita kaikkia tiedostoja.",
+  "@grantManagePermission": {},
+  "playAlbumsInOrderDescription": "Kun napsautat albumissa olevaa kappaletta, kappaleet toistetaan järjestyksessä edellisen toistotilan sijaan.",
+  "@playAlbumsInOrderDescription": {},
+  "noShuffle": "Ei mitään (säilytä nykyinen sekoitustila)",
+  "@noShuffle": {},
+  "favShuffleMode": "Suosikki sekoitustila",
+  "@favShuffleMode": {},
+  "changeDate": "Muuta päivämäärää",
+  "@changeDate": {},
+  "excludeInShuffle": "Sulje pois poissuljettavaksi merkityt kappaleet sekoitustilassa.",
+  "@excludeInShuffle": {},
+  "excludeAlways": "Sulje pois vain kappaleet, jotka on merkitty aina poissulkeviksi.",
+  "@excludeAlways": {},
+  "dontExclude": "Älä sulje pois mitään kappaleita.",
+  "@dontExclude": {},
+  "selectArtistsExclude": "Valitse poissuljettavat artistit: {num} valittu.",
+  "@selectArtistsExclude": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "selectArtistsInclude": "Valitse sisällytettävät artistit: {num} valittu.",
+  "@selectArtistsInclude": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "includeAllArtists": "Sisällytä kaikki artistit, jos ketään ei ole valittu.",
+  "@includeAllArtists": {},
+  "excludeArtists": "Sulje pois valitut artistit",
+  "@excludeArtists": {},
+  "limitSongs": "Rajoita kappaleiden määrää",
+  "@limitSongs": {},
+  "orderSettingsDescription": "Järjestä vaihtoehdot uudelleen prioriteettien muuttaamiseksi.",
+  "@orderSettingsDescription": {},
+  "appendToQueued": "Liitä manuaalisesti jonoon asetettuihin kappaleisiin",
+  "@appendToQueued": {},
+  "nextUp": "Seuraavaksi",
+  "@nextUp": {},
+  "alwaysPlayPrevious": "Soita aina edellinen kappale ennen",
+  "@alwaysPlayPrevious": {},
+  "alwaysPlayNext": "Soita aina seuraava kappale sen jälkeen",
+  "@alwaysPlayNext": {},
+  "dontExcludeSong": "Älä sulje pois tätä kappaletta.",
+  "@dontExcludeSong": {},
+  "excludeShuffleAllSong": "Sulje pois, kun kaikki kappaleet sekoitetaan.",
+  "@excludeShuffleAllSong": {},
+  "excludeShuffleSong": "Sulje pois, kun sekoitetaan.",
+  "@excludeShuffleSong": {},
+  "alwaysExcludeSong": "Jätä tämä kappale aina pois.",
+  "@alwaysExcludeSong": {},
+  "disabledBattery": "Akun optimointi on poistettu käytöstä.",
+  "@disabledBattery": {},
+  "metaDataAvailable": "{num}:n kappaleen metatiedot saatavilla",
+  "@metaDataAvailable": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "exportDescription": "Valitse tiedot, jotka haluat vietäviksi. Oletuksena kaikki viedään. Viedessäsi voit valita kansion tallennettavalle tiedostolle.",
+  "@exportDescription": {},
+  "managePermissionSubtitle": "Luvan peruuttaminen johtaa sovelluksen uudelleenkäynnistykseen.",
+  "@managePermissionSubtitle": {},
+  "blockedFilesDescription": "Estetyt tiedostot tuoduista tiedoista. Vain tarkat vastaavuudet jätetään pois kirjaston skannauksesta. Lisää tiedostoja voidaan estää myöhemmin sovelluksessa.",
+  "@blockedFilesDescription": {},
+  "excludeAllSongs": "Sulje pois kaikki poissuljettavaksi merkityt kappaleet.",
+  "@excludeAllSongs": {},
+  "nSongsInQueue": "{count, plural, =0{no songs} =1{one song} other{{count} songs}} jonossa",
+  "@nSongsInQueue": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "batteryExplanation": "Android v. 12:sta alkaen akun optimointi aiheuttaa ilmoituksen virheen äänen tarkennuksen menettämisen jälkeen, esimerkiksi puhelun saapuessa. Mucken optimoinnin poistaminen käytöstä ratkaisee tämän ongelman.",
+  "@batteryExplanation": {},
+  "disableBattery": "Poista muckin optimointi käytöstä ilmoitusongelmien ratkaisemiseksi.",
+  "@disableBattery": {},
+  "manageExternalExplanation": "Tämän luvan myöntäminen voi parantaa kirjaston tarkistuksia merkittävästi. Se ei muuta sovelluksen toimintaa muuten.",
+  "@manageExternalExplanation": {}
 }
