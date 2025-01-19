@@ -1,0 +1,108 @@
+{
+  "playAlbumsInOrder": "Přehrát alba za sebou",
+  "@playAlbumsInOrder": {},
+  "manageLibraryFolders": "Správa složek knihovny",
+  "@manageLibraryFolders": {},
+  "allSongs": "Všechny Skladby",
+  "@allSongs": {},
+  "playAlbumsInOrderDescription": "Když klinete na skladbu v albu, skladby se přehrají popořadě místo zanechání předchozího režimu přehrávání.",
+  "@playAlbumsInOrderDescription": {},
+  "noHistoryYet": "Zatím tu není nic k vidění. Přehrajte něco.",
+  "@noHistoryYet": {},
+  "addWidgetToHome": "Přídat Widget na Vaší Domovskou Stránku",
+  "@addWidgetToHome": {},
+  "albumOfTheDay": "Album Dne",
+  "@albumOfTheDay": {},
+  "updateLibrary": "Aktualizovat knihovnu",
+  "@updateLibrary": {},
+  "countSongsPlayed": "Považovat skladbu za přehranou po: {percentage}%",
+  "@countSongsPlayed": {
+    "placeholders": {
+      "percentage": {
+        "type": "int"
+      }
+    }
+  },
+  "artistOfTheDay": "Umělec Dne",
+  "@artistOfTheDay": {},
+  "allowedFileExtensionsDescription": "Čárkami rozdělený seznam povolených koncovek souborů. Kapitalizovaná či nekapitalizovaná písmena nezáleží. Pokud si nejste jisti, použijte výchozí.",
+  "@allowedFileExtensionsDescription": {},
+  "noSongsYet": "Vypadá to, že v knihovně nemáte žádné skladby: Přejděte do nastavení, přidejte své složky s hudbou a aktualizujte si svou knihovnu.",
+  "@noSongsYet": {},
+  "artists": "Umělci",
+  "@artists": {},
+  "albums": "Alba",
+  "@albums": {},
+  "homeCustomization": "Přizpůsobení Domovské Stránky",
+  "@homeCustomization": {},
+  "library": "Knihovna",
+  "@library": {},
+  "album": "Album",
+  "@album": {},
+  "artist": "Umělec",
+  "@artist": {},
+  "customizeHomePage": "Přizpůsobit Domovskou Stránku",
+  "@customizeHomePage": {},
+  "manageBlockedFiles": "Spravovat blokované soubory",
+  "@manageBlockedFiles": {},
+  "libraryFolders": "Složky Knihovny",
+  "@libraryFolders": {},
+  "numberOfBlockedFiles": "Počet zablokovaných souborů: {blockedFiles}",
+  "@numberOfBlockedFiles": {
+    "placeholders": {
+      "blockedFiles": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "home": "Domů",
+  "@home": {},
+  "history": "Historie",
+  "@history": {},
+  "nSongs": "{count, plural, =0{žádné skladby} =1{jedna skladba} other{{count} skladeb}}",
+  "@nSongs": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "search": "Hledat",
+  "@search": {},
+  "song": "Skladba",
+  "@song": {},
+  "songs": "Skladby",
+  "@songs": {},
+  "shuffleAll": "Přehrát Vše Přeházeně",
+  "@shuffleAll": {},
+  "lastPlayed": "Naposledy přehráno",
+  "@lastPlayed": {},
+  "playback": "Přehrávání",
+  "@playback": {},
+  "settings": "Nastavení",
+  "@settings": {},
+  "allowedFileExtensions": "Povolené koncovky souborů",
+  "@allowedFileExtensions": {},
+  "noPlaylistsYet": "Zatím žádné playlisty. Můžete je přidat v knihovně.",
+  "@noPlaylistsYet": {},
+  "artistsAlbumsSongs": "{artistCount} umělců, {albumCount} alb, {songCount} písní",
+  "@artistsAlbumsSongs": {
+    "placeholders": {
+      "artistCount": {
+        "type": "int",
+        "example": "3"
+      },
+      "albumCount": {
+        "type": "int",
+        "example": "6"
+      },
+      "songCount": {
+        "type": "int",
+        "example": "60"
+      }
+    }
+  },
+  "blockedFiles": "Blokované Soubory",
+  "@blockedFiles": {}
+}

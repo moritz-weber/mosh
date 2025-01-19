@@ -1,0 +1,417 @@
+{
+  "playAlbumsInOrder": "Albümleri sırayla oynat",
+  "@playAlbumsInOrder": {},
+  "allSongs": "Tüm Şarkılar",
+  "@allSongs": {},
+  "playAlbumsInOrderDescription": "Bir albümdeki şarkıya tıkladığınızda, şarkılar önceki oynatma modunu korumak yerine sırayla oynatılır.",
+  "@playAlbumsInOrderDescription": {},
+  "noHistoryYet": "Burada henüz görülecek bir şey yok. Biir şeyler oynatın.",
+  "@noHistoryYet": {},
+  "playlists": "Oynatma Listeleri",
+  "@playlists": {},
+  "addWidgetToHome": "Ana Sayfanıza Bir Widget Ekleyin",
+  "@addWidgetToHome": {},
+  "albumOfTheDay": "Günün Albümü",
+  "@albumOfTheDay": {},
+  "countSongsPlayed": "Şarkılar %{percentage} oynatılınca oynatıldı sayılsın",
+  "@countSongsPlayed": {
+    "placeholders": {
+      "percentage": {
+        "type": "int"
+      }
+    }
+  },
+  "artistOfTheDay": "Günün Sanatçısı",
+  "@artistOfTheDay": {},
+  "noSongsYet": "Görünüşe göre kitaplığınızda hiçbir şarkı bulunmuyor: Ayarlara gidin, müzik klasörlerinizi ekleyin, ve kitaplığınızı güncelleyin.",
+  "@noSongsYet": {},
+  "artists": "Sanatçılar",
+  "@artists": {},
+  "albums": "Albümler",
+  "@albums": {},
+  "homeCustomization": "Ana Sayfa Özelleştirme",
+  "@homeCustomization": {},
+  "library": "Kitaplık",
+  "@library": {},
+  "album": "Albüm",
+  "@album": {},
+  "artist": "Sanatçı",
+  "@artist": {},
+  "customizeHomePage": "Ana Sayfayı Özelleştir",
+  "@customizeHomePage": {},
+  "libraryFolders": "Kitaplık Klasörleri",
+  "@libraryFolders": {},
+  "playlist": "Oynatma Listesi",
+  "@playlist": {},
+  "numberOfBlockedFiles": "Şuanlık engellenen dosya sayısı: {blockedFiles}",
+  "@numberOfBlockedFiles": {
+    "placeholders": {
+      "blockedFiles": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "home": "Ana Sayfa",
+  "@home": {},
+  "history": "Geçmiş",
+  "@history": {},
+  "search": "Ara",
+  "@search": {},
+  "song": "Şarkı",
+  "@song": {},
+  "songs": "Şarkılar",
+  "@songs": {},
+  "shuffleAll": "Tümünü Karıştır",
+  "@shuffleAll": {},
+  "lastPlayed": "Son oynatılan",
+  "@lastPlayed": {},
+  "settings": "Ayarlar",
+  "@settings": {},
+  "noPlaylistsYet": "Henüz bir oynatma listesi bulunmuyor. Kitaplıkta ekleyebilirsiniz.",
+  "@noPlaylistsYet": {},
+  "blockedFiles": "Engellenen Klasörler",
+  "@blockedFiles": {},
+  "normalMode": "Normal mod",
+  "@normalMode": {},
+  "ascending": "Artan",
+  "@ascending": {},
+  "favShuffleMode": "Favori Karma Mod",
+  "@favShuffleMode": {},
+  "manageLibraryFolders": "Kütüphane klasörlerini yönet",
+  "@manageLibraryFolders": {},
+  "noShuffle": "Yok (mevcut karışık moda devam et)",
+  "@noShuffle": {},
+  "both": "Her ikisi",
+  "@both": {},
+  "descending": "Azalan",
+  "@descending": {},
+  "maxPlayCount": "Maksimum oynatma sayısı",
+  "@maxPlayCount": {},
+  "smartlists": "Akıllı listeler",
+  "@smartlists": {},
+  "filterLikes": "{min} ve {max} arası beğeniler",
+  "@filterLikes": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "addToQueue": "Kuyruğa ekle",
+  "@addToQueue": {},
+  "appendToQueued": "Manuel olarak sıraya alınmış şarkılara ekleme",
+  "@appendToQueued": {},
+  "minYear": "Minimum yıl",
+  "@minYear": {},
+  "updateLibrary": "Kütüphaneyi güncelle",
+  "@updateLibrary": {},
+  "name": "Ad",
+  "@name": {},
+  "selectArtists": "Sanatçıları Seç",
+  "@selectArtists": {},
+  "filterSettings": "Filtreleme Ayarları",
+  "@filterSettings": {},
+  "creationDate": "Oluşturma Tarihi",
+  "@creationDate": {},
+  "maxYear": "Maksimum yıl",
+  "@maxYear": {},
+  "allowedFileExtensionsDescription": "Virgülle ayrılmış geçerli dosya uzantıları listesi. Büyük-küçük karakter fark etmez. Ne olduğundan emin değilseniz varsayılanı kullanın.",
+  "@allowedFileExtensionsDescription": {},
+  "orderSettings": "Sıralama Ayarları",
+  "@orderSettings": {},
+  "shuffleMode": "Karma Mod",
+  "@shuffleMode": {},
+  "excludeAllSongs": "Hariçlik için seçilen bütün şarkıları hariç tut.",
+  "@excludeAllSongs": {},
+  "manageBlockedFiles": "Engellenmiş dosyaları yönet",
+  "@manageBlockedFiles": {},
+  "smartlist": "Akıllı liste",
+  "@smartlist": {},
+  "changeDate": "Değişiklik Tarihi",
+  "@changeDate": {},
+  "shuffle": "Karma et",
+  "@shuffle": {},
+  "currentlyPlaying": "Şuanda oynatılan",
+  "@currentlyPlaying": {},
+  "lastTimePlayed": "Son Oynatılma Zamanı",
+  "@lastTimePlayed": {},
+  "displaySettings": "Görüntü ayarları",
+  "@displaySettings": {},
+  "maxNumberEntries": "Maksimum girdi sayısı",
+  "@maxNumberEntries": {},
+  "minPlayCount": "Minimum oynatma sayısı",
+  "@minPlayCount": {},
+  "addPlaylist": "Oynatma listesi Ekle",
+  "@addPlaylist": {},
+  "allowedFileExtensions": "Geçerli dosya uzantıları",
+  "@allowedFileExtensions": {},
+  "limitSongs": "Şarkı sayısını sınırla",
+  "@limitSongs": {},
+  "play": "Oynat",
+  "@play": {},
+  "artistsAlbumsSongs": "{artistCount} sanatçı, {albumCount} albüm, {songCount} şarkı",
+  "@artistsAlbumsSongs": {
+    "placeholders": {
+      "artistCount": {
+        "type": "int",
+        "example": "3"
+      },
+      "albumCount": {
+        "type": "int",
+        "example": "6"
+      },
+      "songCount": {
+        "type": "int",
+        "example": "60"
+      }
+    }
+  },
+  "removeFromQueue": "Kuyruktan kaldır",
+  "@removeFromQueue": {},
+  "welcomeToMucke": "Mucke'ye hoşgeldiniz!",
+  "@welcomeToMucke": {},
+  "newlyAddedDesc": "En son eklenen 100 şarkıyı içerir.",
+  "@newlyAddedDesc": {},
+  "selectArtistsExclude": "Hariç tutulacak sanatçıları seçin: {num} seçili.",
+  "@selectArtistsExclude": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "createSmartlists": "Akıllı Listeler Oluşturun",
+  "@createSmartlists": {},
+  "excludeShuffleAllSong": "Tüm şarkıları karıştırırken hariç tutun.",
+  "@excludeShuffleAllSong": {},
+  "smartlistsOnly": "Yalnızca Akıllı Listeler",
+  "@smartlistsOnly": {},
+  "systemSettings": "Sistem ayarları",
+  "@systemSettings": {},
+  "reset": "Sıfırla",
+  "@reset": {},
+  "noFoldersSelected": "Şu ana kadar hiçbir klasör seçilmedi.",
+  "@noFoldersSelected": {},
+  "imported": "aktarılan",
+  "@imported": {},
+  "moreAvailable": "{num} tane daha mevcut",
+  "@moreAvailable": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "dataExportFailed": "Veri aktarımı başarısız oldu!",
+  "@dataExportFailed": {},
+  "miscellaneous": "Çeşitli",
+  "@miscellaneous": {},
+  "setupLibraryDescription": "Klasörleri, dahil edilen dosya uzantılarını vb. seçin.",
+  "@setupLibraryDescription": {},
+  "songTitle": "Şarkı adı",
+  "@songTitle": {},
+  "yourPlaylists": "Oynatma listeleriniz",
+  "@yourPlaylists": {},
+  "createPlaylist": "Oynatma listesi oluştur",
+  "@createPlaylist": {},
+  "alwaysExcludeSong": "Bu şarkıyı her zaman hariç tut.",
+  "@alwaysExcludeSong": {},
+  "alwaysPlayPrevious": "Her zaman önceki şarkıyı daha önce çal",
+  "@alwaysPlayPrevious": {},
+  "excludeAlways": "Yalnızca Her zaman hariç tut olarak işaretlenmiş şarkıları hariç tut.",
+  "@excludeAlways": {},
+  "disc": "Disk",
+  "@disc": {},
+  "exportData": "Verileri dışa aktar",
+  "@exportData": {},
+  "editPlaylist": "Oynatma listesi düzenle",
+  "@editPlaylist": {},
+  "next": "İleri",
+  "@next": {},
+  "dontExcludeSong": "Bu şarkıyı hariç tutmayın.",
+  "@dontExcludeSong": {},
+  "create": "Oluştur",
+  "@create": {},
+  "playCount": "Oynatma sayısı",
+  "@playCount": {},
+  "nameMustNotBeEmpty": "Ad boş olmamalıdır.",
+  "@nameMustNotBeEmpty": {},
+  "disableBattery": "Bildirim sorunlarını çözmek için Mucke optimizasyonunu devre dışı bırakın.",
+  "@disableBattery": {},
+  "addSmartlist": "Akıllı Liste Ekle",
+  "@addSmartlist": {},
+  "excludeArtists": "Seçilen sanatçıları hariç tut",
+  "@excludeArtists": {},
+  "blockFromLibrary": "Kitaplıktan kaldır ve engelle",
+  "@blockFromLibrary": {},
+  "year": "Yıl",
+  "@year": {},
+  "scan": "Tara",
+  "@scan": {},
+  "songMetaData": "Şarkı Meta Verileri",
+  "@songMetaData": {},
+  "songsAlbumsArtists": "Şarkılar, Albümler ve Sanatçılar",
+  "@songsAlbumsArtists": {},
+  "metaDataDescription": "Beğenileri, blokları vb. içe aktarın.",
+  "@metaDataDescription": {},
+  "alwaysPlayNext": "Her zaman sonraki şarkıyı sonra çal",
+  "@alwaysPlayNext": {},
+  "highlights": "Öne Çıkanlar",
+  "@highlights": {},
+  "availableFromImport": "İçe aktarılan verilerden edinilebilir:",
+  "@availableFromImport": {},
+  "createSmartlist": "Akıllı Liste Oluştur",
+  "@createSmartlist": {},
+  "disabledBattery": "Pil optimizasyonu devre dışı.",
+  "@disabledBattery": {},
+  "addFolder": "Klasörü eklemek",
+  "@addFolder": {},
+  "finish": "Bitti",
+  "@finish": {},
+  "orderSettingsDescription": "Öncelikleri değiştirmek için seçenekleri yeniden sıralayın.",
+  "@orderSettingsDescription": {},
+  "newlyAdded": "Yeni eklenmiş",
+  "@newlyAdded": {},
+  "back": "Geri",
+  "@back": {},
+  "batteryExplanation": "Android 12'den başlayarak, pil optimizasyonu, örneğin bir çağrı alırken ses odağını kaybettikten sonra bildirimde hataya neden oluyor. Mucke için optimizasyonun devre dışı bırakılması bu sorunu çözer.",
+  "@batteryExplanation": {},
+  "timeAdded": "Zaman eklendi",
+  "@timeAdded": {},
+  "openBattery": "Pil ayarlarını aç",
+  "@openBattery": {},
+  "addToPlaylist": "Oynatma listesine ekle",
+  "@addToPlaylist": {},
+  "exportDescription": "Dışa aktarmak istediğiniz verileri seçin. Varsayılan olarak her şey dışa aktarılır. Dışa aktarırken, saklanacak dosya için bir klasör seçebilirsiniz.",
+  "@exportDescription": {},
+  "importData": "Verileri içe aktar",
+  "@importData": {},
+  "excludeInShuffle": "Karışık modda hariç tutulmak üzere işaretlenmiş şarkıları hariç tutun.",
+  "@excludeInShuffle": {},
+  "importVerb": "İçe aktar",
+  "@importVerb": {
+    "description": "This means the verb of importing something - not the noun."
+  },
+  "metaDataAvailable": "{num} şarkı için meta veriler mevcut",
+  "@metaDataAvailable": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "artistName": "Sanatçı adı",
+  "@artistName": {},
+  "errorReadData": "Veri dosyası okunurken hata oluştu.",
+  "@errorReadData": {},
+  "librarySettings": "Kütüphane Ayarları",
+  "@librarySettings": {},
+  "playbackMode": "Oynatma Modu",
+  "@playbackMode": {},
+  "dataExportedTo": "Veriler şuraya aktarıldı:\n{path}",
+  "@dataExportedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "yourLibrary": "Kütüphaneniz:",
+  "@yourLibrary": {},
+  "likeCount": "Sayımı beğen",
+  "@likeCount": {},
+  "playlistsOnly": "Yalnızca Oynatma Listeleri",
+  "@playlistsOnly": {},
+  "nSongsSelected": "{count, plural, =0{şarkı seçilmedi} =1{bir şarkı seçildi} other{{count} şarkı seçildi}}",
+  "@nSongsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "editSmartlist": "Akıllı Listeyi Düzenle",
+  "@editSmartlist": {},
+  "use": "Kullanmak",
+  "@use": {},
+  "manageExternalExplanation": "Bu iznin verilmesi kitaplık taramalarının hızını önemli ölçüde artırabilir. Aksi takdirde uygulamanın davranışını değiştirmez.",
+  "@manageExternalExplanation": {},
+  "favorites": "Favoriler",
+  "@favorites": {},
+  "cancel": "İptal",
+  "@cancel": {},
+  "customizeCover": "Kapağı Özelleştir",
+  "@customizeCover": {},
+  "excludeShuffleSong": "Karıştırırken hariç tutun.",
+  "@excludeShuffleSong": {},
+  "selectArtistsInclude": "Eklenecek sanatçıları seçin: {num} seçili.",
+  "@selectArtistsInclude": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "includeAllArtists": "Hiçbiri seçilmezse tüm sanatçıları dahil edin.",
+  "@includeAllArtists": {},
+  "nSongs": "{count, plural, =0{no songs} =1{one song} other {{count}songs}}",
+  "@nSongs": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "createSmartlistsDesc": "Dinleme deneyiminizi geliştirmek için önerilen akıllı listeler oluşturun. Bu listeleri daha sonra özelleştirebilirsiniz.",
+  "@createSmartlistsDesc": {},
+  "blockedFilesDescription": "İçe aktarılan verilerdeki dosyalar engellendi. Yalnızca tam eşleşmeler kitaplık taramasının dışında tutulacaktır. Ek dosyalar daha sonra uygulamada engellenebilir.",
+  "@blockedFilesDescription": {},
+  "playNext": "Sonrakini çal",
+  "@playNext": {},
+  "playback": "Oynatma",
+  "@playback": {},
+  "grantManagePermission": "Tüm dosyaları yönetme izni verin.",
+  "@grantManagePermission": {},
+  "previousSong": "öncesi",
+  "@previousSong": {},
+  "sortingFilterSettings": "Sıralama ve Filtre Ayarları",
+  "@sortingFilterSettings": {},
+  "managePermissionSubtitle": "İznin iptal edilmesi uygulamanın yeniden başlatılmasıyla sonuçlanacaktır.",
+  "@managePermissionSubtitle": {},
+  "setupLibrary": "Kitaplığı Kur",
+  "@setupLibrary": {},
+  "removeFromPlaylist": "Oynatma listesinden kaldır",
+  "@removeFromPlaylist": {},
+  "importLibData": "Kütüphane Verilerini İçe Aktar",
+  "@importLibData": {},
+  "favoritesDesc": "Beğendiğiniz tüm şarkıları içerir.",
+  "@favoritesDesc": {},
+  "created": "Oluşturuldu",
+  "@created": {},
+  "dontExclude": "Hiçbir şarkıyı hariç tutma.",
+  "@dontExclude": {},
+  "importDataDescription": "Verilerinizi önceki bir mucke kurulumundan içe aktarın.",
+  "@importDataDescription": {},
+  "nextUp": "Sonraki",
+  "@nextUp": {},
+  "nSongsInQueue": "Kuyrukta {count, plural, =0{şarkı yok} =1{bir şarkı} other{{count} şarkı}}",
+  "@nSongsInQueue": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "playedNTimes": "{count, plural, =0{henüz oynatılmadı} =1{bir defa oynatıldı} other{{count} defa oynatıldı}}",
+  "@playedNTimes": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  }
+}

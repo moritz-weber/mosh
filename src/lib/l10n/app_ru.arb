@@ -286,7 +286,7 @@
   "@nextUp": {},
   "previousSong": "предыдущая",
   "@previousSong": {},
-  "playedNTimes": "{count, plural, =0{еще не играло} =1{играло один раз} other{играло {count} раз}}",
+  "playedNTimes": "{count, plural, =0{еще не играло} =1{играло один раз} other{сыграно {count} раз}}",
   "@playedNTimes": {
     "placeholders": {
       "count": {
@@ -377,5 +377,41 @@
   "grantManagePermission": "Предоставить разрешение на управление всеми файлами.",
   "@grantManagePermission": {},
   "managePermissionSubtitle": "Отзыв разрешения вызовет перезапуск приложения.",
-  "@managePermissionSubtitle": {}
+  "@managePermissionSubtitle": {},
+  "metaDataAvailable": "Метаданные доступны для {num} песен",
+  "@metaDataAvailable": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "imported": "Импортировано",
+  "@imported": {},
+  "importVerb": "Импорт",
+  "@importVerb": {
+    "description": "This means the verb of importing something - not the noun."
+  },
+  "miscellaneous": "Разное",
+  "@miscellaneous": {},
+  "exportData": "Экспорт данных",
+  "@exportData": {},
+  "exportDescription": "Выберите данные, которые вы хотите экспортировать. По умолчанию экспортируется всё. При экспорте вы можете выбрать папку в которой будут храниться файлы.",
+  "@exportDescription": {},
+  "librarySettings": "Настройки Библиотеки",
+  "@librarySettings": {},
+  "newlyAdded": "Недавно добавлено",
+  "@newlyAdded": {},
+  "favorites": "Любимое",
+  "@favorites": {},
+  "favoritesDesc": "Содержит все песни, которые вам нравятся.",
+  "@favoritesDesc": {},
+  "finish": "Финиш",
+  "@finish": {},
+  "createSmartlistsDesc": "Создайте предлагаемые смарт-листы, чтобы улучшить ваш опыт прослушивания. Вы можете настроить эти списки позже.",
+  "@createSmartlistsDesc": {},
+  "create": "Создать",
+  "@create": {},
+  "created": "Создано",
+  "@created": {}
 }

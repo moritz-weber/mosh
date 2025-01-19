@@ -1,1 +1,325 @@
-{}
+{
+  "welcomeToMucke": "Bem-vindo ao Mucke!",
+  "@welcomeToMucke": {},
+  "setupLibrary": "Configurar Biblioteca",
+  "@setupLibrary": {},
+  "availableFromImport": "Disponível dos dados importados:",
+  "@availableFromImport": {},
+  "use": "Usar",
+  "@use": {},
+  "reset": "Repor",
+  "@reset": {},
+  "library": "Biblioteca",
+  "@library": {},
+  "libraryFolders": "Pastas da biblioteca",
+  "@libraryFolders": {},
+  "blockedFiles": "Ficheiros bloqueados",
+  "@blockedFiles": {},
+  "homeCustomization": "Customização do Início",
+  "@homeCustomization": {},
+  "albumOfTheDay": "Álbum do dia",
+  "@albumOfTheDay": {},
+  "artistOfTheDay": "Artista do dia",
+  "@artistOfTheDay": {},
+  "shuffleAll": "Baralhar tudo",
+  "@shuffleAll": {},
+  "descending": "Descendente",
+  "@descending": {},
+  "filterSettings": "Filtrar configurações",
+  "@filterSettings": {},
+  "filterLikes": "Curtidas entre {min} e {max}",
+  "@filterLikes": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "minPlayCount": "Contagem mínima de toques",
+  "@minPlayCount": {},
+  "selectArtistsInclude": "Selecionar artistas para incluir: {num} selecionados.",
+  "@selectArtistsInclude": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "includeAllArtists": "Incluir todos os artistas se nenhum for selecionado.",
+  "@includeAllArtists": {},
+  "limitSongs": "Limitar quantidade de músicas",
+  "@limitSongs": {},
+  "orderSettings": "Configurações de pedido",
+  "@orderSettings": {},
+  "shuffle": "Baralhar",
+  "@shuffle": {},
+  "nameMustNotBeEmpty": "O nome não deve estar vazio.",
+  "@nameMustNotBeEmpty": {},
+  "artistName": "Nome do artista",
+  "@artistName": {},
+  "likeCount": "Numero de curtidas",
+  "@likeCount": {},
+  "playCount": "Reproduções",
+  "@playCount": {},
+  "songTitle": "Título da música",
+  "@songTitle": {},
+  "excludeShuffleAllSong": "Excluir quando baralhar todas as músicas.",
+  "@excludeShuffleAllSong": {},
+  "setupLibraryDescription": "Selecionar pastas, extensões de ficheiros incluídas, etc.",
+  "@setupLibraryDescription": {},
+  "addFolder": "Adicionar pasta",
+  "@addFolder": {},
+  "home": "Início",
+  "@home": {},
+  "customizeHomePage": "Personalizar página inicial",
+  "@customizeHomePage": {},
+  "settings": "Opções",
+  "@settings": {},
+  "noSongsYet": "Parece que não tem nenhuma música na sua biblioteca: Vá para as configurações, adicione as suas pastas de música e atualize a sua biblioteca.",
+  "@noSongsYet": {},
+  "updateLibrary": "Atualizar biblioteca",
+  "@updateLibrary": {},
+  "search": "Buscar",
+  "@search": {},
+  "artistsAlbumsSongs": "{artistCount} artistas, {albumCount} albums, {songCount} músicas",
+  "@artistsAlbumsSongs": {
+    "placeholders": {
+      "artistCount": {
+        "type": "int",
+        "example": "3"
+      },
+      "albumCount": {
+        "type": "int",
+        "example": "6"
+      },
+      "songCount": {
+        "type": "int",
+        "example": "60"
+      }
+    }
+  },
+  "manageLibraryFolders": "Gerir pastas da biblioteca",
+  "@manageLibraryFolders": {},
+  "allowedFileExtensions": "Extensões de ficheiro permitidas",
+  "@allowedFileExtensions": {},
+  "allowedFileExtensionsDescription": "Uma lista separada por vírgulas das extensões de ficheiro permitidas. Não importa se tem letras maiúsculas ou minúsculas. Se não tiver certeza sobre isso, use o padrão.",
+  "@allowedFileExtensionsDescription": {},
+  "manageBlockedFiles": "Gerir ficheiros bloqueados",
+  "@manageBlockedFiles": {},
+  "numberOfBlockedFiles": "Quantidade de ficheiros atualmente bloqueados: {blockedFiles}",
+  "@numberOfBlockedFiles": {
+    "placeholders": {
+      "blockedFiles": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "playback": "Reprodução",
+  "@playback": {},
+  "playAlbumsInOrder": "Reproduzir os álbuns em ordem",
+  "@playAlbumsInOrder": {},
+  "playAlbumsInOrderDescription": "Ao clicar numa música de um álbum, as músicas serão reproduzidas na ordem, em vez de manter o modo de reprodução anterior.",
+  "@playAlbumsInOrderDescription": {},
+  "countSongsPlayed": "Contar as músicas reproduzidas após: {percentage}%",
+  "@countSongsPlayed": {
+    "placeholders": {
+      "percentage": {
+        "type": "int"
+      }
+    }
+  },
+  "history": "Histórico",
+  "@history": {},
+  "addWidgetToHome": "Adicionar um widget à sua página inicial",
+  "@addWidgetToHome": {},
+  "noPlaylistsYet": "Sem playlists ainda. Pode adicionar na biblioteca.",
+  "@noPlaylistsYet": {},
+  "lastPlayed": "Último reproduzido",
+  "@lastPlayed": {},
+  "noHistoryYet": "Nada para ver aqui. Jogue alguma coisa.",
+  "@noHistoryYet": {},
+  "allSongs": "Todas as músicas",
+  "@allSongs": {},
+  "song": "Música",
+  "@song": {},
+  "songs": "Músicas",
+  "@songs": {},
+  "nSongs": "{count, plural, =0{sem músicas} =1{uma música} other{{count} músicas}}",
+  "@nSongs": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "album": "Álbum",
+  "@album": {},
+  "albums": "Álbuns",
+  "@albums": {},
+  "artist": "Artista",
+  "@artist": {},
+  "artists": "Artistas",
+  "@artists": {},
+  "playlist": "Playlist",
+  "@playlist": {},
+  "smartlist": "Lista Inteligente",
+  "@smartlist": {},
+  "playlists": "Playlists",
+  "@playlists": {},
+  "favShuffleMode": "Modo aleatório de favoritos",
+  "@favShuffleMode": {},
+  "smartlists": "Listas inteligentes",
+  "@smartlists": {},
+  "normalMode": "Modo normal",
+  "@normalMode": {},
+  "shuffleMode": "Modo aleatório",
+  "@shuffleMode": {},
+  "name": "Nome",
+  "@name": {},
+  "sortingFilterSettings": "Configurações de classificação e filtro",
+  "@sortingFilterSettings": {},
+  "maxNumberEntries": "Quantidade máxima de entradas",
+  "@maxNumberEntries": {},
+  "noShuffle": "Nenhum (manter o modo aleatório atual)",
+  "@noShuffle": {},
+  "creationDate": "Data de criação",
+  "@creationDate": {},
+  "changeDate": "Mudar data",
+  "@changeDate": {},
+  "lastTimePlayed": "Última vez tocado",
+  "@lastTimePlayed": {},
+  "ascending": "Ascendente",
+  "@ascending": {},
+  "playlistsOnly": "Apenas playlists",
+  "@playlistsOnly": {},
+  "both": "Ambos",
+  "@both": {},
+  "smartlistsOnly": "Apenas listas inteligentes",
+  "@smartlistsOnly": {},
+  "displaySettings": "Configurações de ecrã",
+  "@displaySettings": {},
+  "editPlaylist": "Editar Playlist",
+  "@editPlaylist": {},
+  "addSmartlist": "Adicionar lista Inteligente",
+  "@addSmartlist": {},
+  "addPlaylist": "Adicionar playlist",
+  "@addPlaylist": {},
+  "createPlaylist": "Criar playlist",
+  "@createPlaylist": {},
+  "customizeCover": "Customizar o Cover",
+  "@customizeCover": {},
+  "playbackMode": "Modo de reprodução",
+  "@playbackMode": {},
+  "excludeAllSongs": "Excluir todas as músicas marcadas para a exclusão.",
+  "@excludeAllSongs": {},
+  "excludeInShuffle": "Excluir músicas marcadas para a exclusão no modo aleatório.",
+  "@excludeInShuffle": {},
+  "excludeAlways": "Exclua apenas músicas marcadas como sempre excluídas.",
+  "@excludeAlways": {},
+  "dontExclude": "Não excluir nenhuma música.",
+  "@dontExclude": {},
+  "maxPlayCount": "Contagem máxima de toques",
+  "@maxPlayCount": {},
+  "minYear": "Ano mínimo",
+  "@minYear": {},
+  "maxYear": "Ano máximo",
+  "@maxYear": {},
+  "selectArtistsExclude": "Selecionar artistas para excluir: {num} selecionados.",
+  "@selectArtistsExclude": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "excludeArtists": "Excluir artistas selecionados",
+  "@excludeArtists": {},
+  "createSmartlist": "Criar lista inteligente",
+  "@createSmartlist": {},
+  "orderSettingsDescription": "Reordenar opções para mudar prioridades.",
+  "@orderSettingsDescription": {},
+  "editSmartlist": "Editar lista inteligente",
+  "@editSmartlist": {},
+  "play": "Tocar",
+  "@play": {},
+  "nSongsSelected": "{count, plural, =0{sem músicas selecionadas} =1{uma música selecionada} other{{count} músicas selecionadas}}",
+  "@nSongsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "playNext": "Tocar o próximo",
+  "@playNext": {},
+  "appendToQueued": "Anexar às músicas em fila manualmente",
+  "@appendToQueued": {},
+  "addToQueue": "Adicionar à fila",
+  "@addToQueue": {},
+  "disc": "Disco",
+  "@disc": {},
+  "blockFromLibrary": "Remover e bloquear da biblioteca",
+  "@blockFromLibrary": {},
+  "highlights": "Destaques",
+  "@highlights": {},
+  "selectArtists": "Selecione Artistas",
+  "@selectArtists": {},
+  "removeFromQueue": "Remover da fila",
+  "@removeFromQueue": {},
+  "currentlyPlaying": "Atualmente tocando",
+  "@currentlyPlaying": {},
+  "nSongsInQueue": "{count, plural, =0{sem músicas} =1{uma música} other{{count} músicas}} na fila",
+  "@nSongsInQueue": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "moreAvailable": "{num} à mais disponível",
+  "@moreAvailable": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "year": "Ano",
+  "@year": {},
+  "timeAdded": "Tempo adicionado",
+  "@timeAdded": {},
+  "addToPlaylist": "Adicionar à playlist",
+  "@addToPlaylist": {},
+  "removeFromPlaylist": "Remover da playlist",
+  "@removeFromPlaylist": {},
+  "cancel": "Cancelar",
+  "@cancel": {},
+  "nextUp": "Próxima",
+  "@nextUp": {},
+  "previousSong": "anterior",
+  "@previousSong": {},
+  "dontExcludeSong": "Não excluir esta música.",
+  "@dontExcludeSong": {},
+  "alwaysExcludeSong": "Sempre excluir esta canção.",
+  "@alwaysExcludeSong": {},
+  "importData": "Importar dados",
+  "@importData": {},
+  "importDataDescription": "Importar os seus dados de uma instalação anterior do mucke.",
+  "@importDataDescription": {},
+  "yourLibrary": "A sua biblioteca:",
+  "@yourLibrary": {},
+  "noFoldersSelected": "Nenhuma pasta selecionada até agora.",
+  "@noFoldersSelected": {},
+  "playedNTimes": "{count, plural, =0{não tocada ainda} =1{tocada uma vez} other{tocada {count} vezes}}",
+  "@playedNTimes": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  }
+}
